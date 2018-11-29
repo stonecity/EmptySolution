@@ -1,0 +1,2 @@
+# EmptySolution
+Just for fun
