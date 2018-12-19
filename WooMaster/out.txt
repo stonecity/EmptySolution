@@ -1,0 +1,15 @@
+Line:1 At:0 TokenType:0 Value= def
+Line:1 At:3 TokenType:31 Value=  
+Line:1 At:4 TokenType:3 Value= func
+Line:1 At:8 TokenType:7 Value= (
+Line:1 At:9 TokenType:8 Value= )
+Line:2 At:1 TokenType:3 Value= a
+Line:2 At:2 TokenType:31 Value=  
+Line:2 At:3 TokenType:16 Value= =
+Line:2 At:4 TokenType:31 Value=  
+Line:2 At:5 TokenType:6 Value= 1
+Line:3 At:1 TokenType:3 Value= print
+Line:3 At:6 TokenType:7 Value= (
+Line:3 At:7 TokenType:3 Value= a
+Line:3 At:8 TokenType:8 Value= )
+Line:4 At:0 TokenType:25 Value= end
