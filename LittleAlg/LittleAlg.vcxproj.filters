@@ -27,6 +27,9 @@
     <ClInclude Include="unistd.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="TwoSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LittleAlg.cpp">
@@ -45,6 +48,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ReverseDigit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cppmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -14,7 +14,7 @@
     <ProjectGuid>{36CEA206-904A-450B-9A68-9F14E99622FA}</ProjectGuid>
     <RootNamespace>LittleAlg</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -96,11 +96,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CClass.c" />
+    <ClCompile Include="cppmain.cpp" />
     <ClCompile Include="LittleAlg.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="ReverseDigit.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TinyGC.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -108,6 +110,7 @@
   <ItemGroup>
     <ClInclude Include="CClass.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TwoSum.h" />
     <ClInclude Include="unistd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
