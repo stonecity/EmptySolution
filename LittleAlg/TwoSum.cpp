@@ -12,7 +12,7 @@ vector<int> TwoSumClass::twoSum(vector<int>& nums, int target)
 	{
 		int ele1 = nums[i];
 
-		for (vector<int>::size_type j = i; j < nums.size(); j++)
+		for (vector<int>::size_type j = i + 1; j < nums.size(); j++)
 		{
 			int ele2 = nums[j];
 
