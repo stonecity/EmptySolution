@@ -98,7 +98,7 @@
     <ClCompile Include="CClass.c" />
     <ClCompile Include="cppmain.cpp" />
     <ClCompile Include="LittleAlg.cpp" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="cmain.c" />
     <ClCompile Include="ReverseDigit.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TinyGC.cpp" />

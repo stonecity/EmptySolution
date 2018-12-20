@@ -44,9 +44,6 @@
     <ClCompile Include="CClass.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="ReverseDigit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -54,6 +51,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="cppmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmain.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -7,7 +7,7 @@
 using namespace std;
 
 
-class TwoSum 
+class TwoSumClass 
 {
 public:
 	vector<int> twoSum(vector<int>& nums, int target);

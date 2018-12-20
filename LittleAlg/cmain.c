@@ -19,9 +19,9 @@ int ShowDemo(char* msg, ...)
 	return 0;
 }
 
-int main()
+int some_main()
 {
-	Demo("DEMO", "This", "a", "b", "c");
+	ShowDemo("DEMO", "This", "a", "b", "c");
 
 	system("pause");
 	exit(0);

@@ -1,11 +1,11 @@
 #include "stdafx.h"
+#include "TwoSum.h"
 #include <vector>
 #include <iostream>
 #include <algorithm>
 using namespace std;
 
-
-vector<int> twoSum(vector<int>& nums, int target)
+vector<int> TwoSumClass::twoSum(vector<int>& nums, int target)
 {
 	vector<int> result;
 	for (vector<int>::size_type i = 0; i < nums.size(); i++)
@@ -18,8 +18,8 @@ vector<int> twoSum(vector<int>& nums, int target)
 
 			if (ele1 + ele2 == target)
 			{
-				result.push_back(ele1);
-				result.push_back(ele2);
+				result.push_back(i);
+				result.push_back(j);
 				break;
 			}
 		}
