@@ -14,7 +14,7 @@
     <ProjectGuid>{8367A314-094D-4738-805C-B5007A8B62BA}</ProjectGuid>
     <RootNamespace>Inline_Ref</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <ProjectName>InlineRef</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
