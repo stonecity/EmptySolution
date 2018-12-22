@@ -13,5 +13,13 @@
 #include <tchar.h>
 #include <cassert>
 
+struct ListNode
+{
+	int val;
+	ListNode *next;
+	ListNode(int x) : val(x), next(NULL) {}
+};
+
+
 
 // TODO: 在此处引用程序需要的其他头文件

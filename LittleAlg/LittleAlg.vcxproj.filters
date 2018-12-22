@@ -30,6 +30,9 @@
     <ClInclude Include="TwoSum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AddTwoNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LittleAlg.cpp">
@@ -54,6 +57,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="cmain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTwoNumbers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
