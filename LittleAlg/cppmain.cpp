@@ -1,12 +1,20 @@
 #include "stdafx.h"
-#include "TwoSum.h"
-#include "AddTwoNumbers.h"
 #include <iostream>
 #include <vector>
+#include "TwoSum.h"
+#include "AddTwoNumbers.h"
+#include "LongestSubStringClass.h"
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	// ***** Longest substring
+	LongestSubStringClass *lssc = new LongestSubStringClass;
+	int count = lssc->GetLengthOfLongestSubstring("pwwkew");
+	cout << "Longest SubString " << count << endl;
+
+	cout << "\n==========End==========\n" << endl;
+
 	// ***** Add Two Numbers
 	ListNode *l1 = new ListNode(2);
 	l1->next = new ListNode(4);
@@ -27,7 +35,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 	}
 
-	cout << "\n==========End==========" << endl;
+	cout << "\n==========End==========\n" << endl;
 
 	// ***** Two Sum
 	vector<int> inputs;
@@ -44,5 +52,5 @@ int _tmain(int argc, _TCHAR* argv[])
 		cout << *it << " ";
 	}
 
-	cout << "\n" << "==========End==========" << endl;
+	cout << "\n==========End==========\n" << endl;
 }

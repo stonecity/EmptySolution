@@ -100,6 +100,7 @@
     <ClCompile Include="cppmain.cpp" />
     <ClCompile Include="LittleAlg.cpp" />
     <ClCompile Include="cmain.c" />
+    <ClCompile Include="LongestSubStringClass.cpp" />
     <ClCompile Include="ReverseDigit.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TinyGC.cpp" />
@@ -111,6 +112,7 @@
   <ItemGroup>
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="CClass.h" />
+    <ClInclude Include="LongestSubStringClass.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TwoSum.h" />
     <ClInclude Include="unistd.h" />
