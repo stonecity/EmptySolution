@@ -97,7 +97,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
-    <ClCompile Include="CClass.c" />
+    <ClCompile Include="CTest.c" />
     <ClCompile Include="Convert.cpp" />
     <ClCompile Include="cppmain.cpp" />
     <ClCompile Include="LittleAlg.cpp" />

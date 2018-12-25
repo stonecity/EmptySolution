@@ -47,9 +47,6 @@
     <ClCompile Include="TinyGC.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CClass.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="ReverseDigit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -69,6 +66,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Convert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTest.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
