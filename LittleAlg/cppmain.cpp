@@ -10,7 +10,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	// ***** Longest substring
 	LongestSubStringClass *lssc = new LongestSubStringClass;
-	int count = lssc->GetLengthOfLongestSubstring("pwwkew");
+	int count = lssc->GetLengthOfLongestSubstring("abcabcbb");
 	cout << "Longest SubString " << count << endl;
 
 	cout << "\n==========End==========\n" << endl;

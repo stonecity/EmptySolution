@@ -10,5 +10,8 @@ class LongestSubStringClass
 {
 public:
 	int GetLengthOfLongestSubstring(string s);
+
+private:
+	string formatString(string input);
 };
 
