@@ -98,6 +98,7 @@
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="CClass.c" />
+    <ClCompile Include="Convert.cpp" />
     <ClCompile Include="cppmain.cpp" />
     <ClCompile Include="LittleAlg.cpp" />
     <ClCompile Include="cmain.c" />

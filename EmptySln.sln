@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SyntaxAnalyzer", "SimpleAnalyzer\SimpleAnalyzer.vcxproj", "{D5F2EE66-CCA7-4065-A80B-AD07701B054B}"
 EndProject
@@ -10,7 +10,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestBigFactorial", "TestBigFac\TestBigFac.vcxproj", "{DB3A9844-1A63-4AC3-94F6-009F74CFD01D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inline_Ref", "Inline_Ref\Inline_Ref.vcxproj", "{8367A314-094D-4738-805C-B5007A8B62BA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InlineRef", "Inline_Ref\Inline_Ref.vcxproj", "{8367A314-094D-4738-805C-B5007A8B62BA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringContains", "StringContains\StringIn.vcxproj", "{2865711E-8DF9-4539-A8EA-853901990160}"
 EndProject
@@ -23,8 +23,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimulateInput", "SimulateInput\SimulateInput.vcxproj", "{935A54A6-C35B-4B70-8BFB-1D9583CD2A30}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SearchFile", "SearchFile\SearchFile.vcxproj", "{F6068484-EF64-441C-B023-A8C99EA737B4}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Convert", "Convert\Convert.vcxproj", "{133CD707-FC22-4E46-961D-3D51ED7572EB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LittleAlg", "LittleAlg\LittleAlg.vcxproj", "{36CEA206-904A-450B-9A68-9F14E99622FA}"
 EndProject
@@ -212,20 +210,6 @@ Global
 		{F6068484-EF64-441C-B023-A8C99EA737B4}.Release|Win32.Build.0 = Release|Win32
 		{F6068484-EF64-441C-B023-A8C99EA737B4}.Release|x64.ActiveCfg = Release|Win32
 		{F6068484-EF64-441C-B023-A8C99EA737B4}.Release|x86.ActiveCfg = Release|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Debug|Win32.ActiveCfg = Debug|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Debug|Win32.Build.0 = Debug|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Debug|x64.ActiveCfg = Debug|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Debug|x86.ActiveCfg = Debug|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Release|Any CPU.ActiveCfg = Release|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Release|Win32.ActiveCfg = Release|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Release|Win32.Build.0 = Release|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Release|x64.ActiveCfg = Release|Win32
-		{133CD707-FC22-4E46-961D-3D51ED7572EB}.Release|x86.ActiveCfg = Release|Win32
 		{36CEA206-904A-450B-9A68-9F14E99622FA}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{36CEA206-904A-450B-9A68-9F14E99622FA}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{36CEA206-904A-450B-9A68-9F14E99622FA}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -367,5 +351,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C854D598-A791-4EB2-B713-132300DE9FA7}
 	EndGlobalSection
 EndGlobal

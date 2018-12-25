@@ -35,9 +35,10 @@ int LongestSubStringClass::GetLengthOfLongestSubstring(string s) {
 
 	for (size_t j = 0, i = 0; j < strLen; j++)
 	{
-		if (index[s.at(j)] > i) 
+		char c = s.at(j);
+		if (index[c] > i) 
 		{
-			i = index[s.at(j)];
+			i = index[c];
 		}
 
 		if (answer < j - i + 1) 
@@ -45,7 +46,7 @@ int LongestSubStringClass::GetLengthOfLongestSubstring(string s) {
 			answer = j - i + 1;
 		}
 
-		index[s.at(j)] = j + 1;
+		index[c] = j + 1;
 	}
 
 	return answer;

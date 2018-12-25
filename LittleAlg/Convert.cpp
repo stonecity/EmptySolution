@@ -1,7 +1,3 @@
-// Convert.cpp : 定义控制台应用程序的入口点。
-//
-// Convert.cpp
-// 将字符数组中的每个字符转换成二进制格式输出
 
 #include "stdafx.h"
 #include <iostream>
@@ -75,7 +71,7 @@ void ConvertCharToHex()
 		exit(1);
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int aa_tmain(int argc, _TCHAR* argv[])
 {
 	TestChartArr x = { 'A', 'B' };
 	unsigned char a = -1;

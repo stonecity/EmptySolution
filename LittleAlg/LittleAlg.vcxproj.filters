@@ -68,5 +68,8 @@
     <ClCompile Include="LongestSubStringClass.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Convert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
