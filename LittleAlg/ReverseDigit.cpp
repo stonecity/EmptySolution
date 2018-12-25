@@ -5,14 +5,6 @@ using namespace std;
 
 int arr[3];
 
-#include "stdafx.h"
-#include <iostream>
-#include <cstring>
-#include <cstdlib>
-#include <vector>
-
-using namespace std;
-using std::vector;
 void reverse(int i, int j)
 {
 	int temp = arr[i];
