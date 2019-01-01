@@ -2,6 +2,7 @@
 #include "AddTwoNumbers.h"
 #include <assert.h>
 
+
 ListNode* AddTwoNumbersClass::AddTwoNumbers(ListNode* l1, ListNode* l2)
 {
 	int advanceNum = 0;

@@ -8,7 +8,7 @@
 #include <malloc.h>
 #include <cstdlib>
 #include <vector>
-#define MAXSIZE 50
+constexpr auto MAXSIZE = 50; // equivalently to "#define MAXSIZE 50"
 
 using namespace std;
 
@@ -82,7 +82,8 @@ int sum(int items[], int i)
 	return i < 0 ? 0 : items[i] + sum(items, i - 1);
 }
 
-typedef struct{
+typedef struct
+{
 	int a;
 	short s[2];
 } MSG;

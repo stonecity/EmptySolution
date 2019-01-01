@@ -51,7 +51,7 @@ Node* ReverseLinklist(Node *node)
 	return p1;
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int ccll_tmain(int argc, _TCHAR* argv[])
 {
 	Node *node1 = new Node;
 	node1->obj = 1;
