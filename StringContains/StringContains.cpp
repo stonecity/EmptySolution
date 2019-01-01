@@ -21,6 +21,9 @@ int a;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	a = 5;
+
+
 	char pstr[] = "abcdefghi";
 	LoopMove(pstr, 2);
 	cout << pstr << endl;
@@ -29,7 +32,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	int i;
 	unsigned char *c;
-	a = 5;
 	c = ((unsigned char *)0x0040815B); // 0040D788;
 	for (i = 0; i < 10; i++)
 	{
