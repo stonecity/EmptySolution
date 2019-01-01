@@ -1,4 +1,4 @@
-// LRU 
+// LRU - Least Recently Used
 
 #include "stdafx.h"
 #include <stdio.h>

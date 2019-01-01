@@ -30,7 +30,7 @@ bool CheckCircle(Node *node)
 			return false;
 		}
 	}
-	
+
 	return false;
 }
 

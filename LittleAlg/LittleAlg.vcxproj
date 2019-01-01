@@ -97,6 +97,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="CheckCircleLinkList.cpp" />
     <ClCompile Include="CTest.c" />
     <ClCompile Include="Convert.cpp" />
     <ClCompile Include="cppmain.cpp" />

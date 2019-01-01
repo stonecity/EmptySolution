@@ -14,8 +14,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InlineRef", "Inline_Ref\Inl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringContains", "StringContains\StringIn.vcxproj", "{2865711E-8DF9-4539-A8EA-853901990160}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckCircleLink", "CheckCircleLink\CheckCircleLink.vcxproj", "{A2C6B78B-6368-46AC-8C5E-965A2D13B215}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManipulateFile", "ManipulateFile\ManipulateFile.vcxproj", "{EDEE8CF7-E019-4815-B548-5343288D9A03}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ext_Pointer", "Ext_Pointer\Ext_Pointer.vcxproj", "{3830FD39-C5D8-42B5-A806-A993A73D96B1}"
@@ -140,20 +138,6 @@ Global
 		{2865711E-8DF9-4539-A8EA-853901990160}.Release|Win32.Build.0 = Release|Win32
 		{2865711E-8DF9-4539-A8EA-853901990160}.Release|x64.ActiveCfg = Release|Win32
 		{2865711E-8DF9-4539-A8EA-853901990160}.Release|x86.ActiveCfg = Release|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Debug|Win32.Build.0 = Debug|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Debug|x64.ActiveCfg = Debug|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Debug|x86.ActiveCfg = Debug|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Release|Any CPU.ActiveCfg = Release|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Release|Win32.ActiveCfg = Release|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Release|Win32.Build.0 = Release|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Release|x64.ActiveCfg = Release|Win32
-		{A2C6B78B-6368-46AC-8C5E-965A2D13B215}.Release|x86.ActiveCfg = Release|Win32
 		{EDEE8CF7-E019-4815-B548-5343288D9A03}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{EDEE8CF7-E019-4815-B548-5343288D9A03}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{EDEE8CF7-E019-4815-B548-5343288D9A03}.Debug|Mixed Platforms.Build.0 = Debug|Win32
