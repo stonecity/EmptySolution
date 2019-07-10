@@ -24,7 +24,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	a = 5;
 
 
-	char pstr[] = "abcdefghi";
+	char pstr[] = "abcde";
 	LoopMove(pstr, 2);
 	cout << pstr << endl;
 
