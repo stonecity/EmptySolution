@@ -61,7 +61,6 @@ uint32_t get_nbits(uint8_t* pBytes, uint32_t size, uint32_t bitPos, uint32_t nBi
         else if (nBits / 8 <= 1)
         {
             rBitPos = nBits % 8;
-            uint8_t nMove = 8 - rBitPos;
             uint32_t a = ((uint32_t)value & BitConst[rBitPos - 1]); //(0xFF >> nMove));
 
             result += ((uint32_t)a << nMoveHigh);
